@@ -24,7 +24,7 @@
 ## Tools 🎨 
  ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
  
- ##Instrucciones🥗🥗
+## Instrucciones 🥗🥗
 •Puedes Iniciar sesion con tu cuenta de Google, Facebook o registrandote e ingresando el correo electronico y la contraseña.
 •Puedes seleccionar todos los ingredientes para tu plato con el boton de seleccionar todo
 •Puedes desseleccionar todos los ingredientes con el boton desseleccionar todo
