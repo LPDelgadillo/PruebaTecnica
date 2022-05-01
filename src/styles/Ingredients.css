@@ -67,6 +67,10 @@ small{
     .logoList{
         left: 30%;
     }
+    .logo{
+        right: 30%;
+        top: 3vh;
+    }
 }
 @media screen and (max-width: 768px){
     .tableCrud{
@@ -81,13 +85,14 @@ small{
     .ingredientCont{
     margin: 20% 15% 0;
     }
-    .logo{
-    
-    }
     .logoList{
     position: absolute;
     left: 10%;
     top: 0;
+    }
+    .logo{
+        right: 25%;
+        top: 2vh;
     }
     small{
     color: brown;
@@ -98,7 +103,15 @@ small{
         margin: 4%;
         margin-top:30% ;
     }
-
+    .logo{
+        top: 1vh;
+    }
+    .primerRegistro{
+        margin-top: 15%;
+    }
+    .contForm{
+        margin: 2% 10%;
+    }
 }
 @media screen and (max-width: 425px){
     .tableCrud{
@@ -114,13 +127,14 @@ small{
     .ingredientCont{
     margin: 35% 5% 0;
     }
-    .logo{
-    
-    }
     .logoList{
     position: absolute;
     left: 10%;
     top: 0;
+    }
+    .logo{
+        top: 1vh;
+        left: 60%;
     }
     small{
     color: brown;
