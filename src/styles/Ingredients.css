@@ -1,5 +1,7 @@
-.tableIngredients{
+.tableCrud{
     margin: 3% 35%;
+    box-shadow: 0px 3px 11px 8px rgba(0,0,0,0.75);
+    background-color: rgb(211, 210, 210);
 }
 .btnLogout{
     position: relative;
@@ -10,15 +12,21 @@
     background-color: #F2BC57 !important;
     border: 1px solid #A65712 !important;
 }
-
+.btnsCheck{
+    margin: 0 5%;
+}
 .ingredientCont{
     margin: 0 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     box-shadow: 0px 3px 11px 8px rgba(0,0,0,0.75);
+    background-color: rgb(211, 210, 210);
     padding: 2% 3%;
-    /* align-items: center; */
+}
+.centrar{
+    width: 50%;
+    margin: 2% auto;
 }
 .ingredient{
     display: flex;
@@ -36,8 +44,86 @@
     left: 20%;
     top: 6vh;
 }
-.logoRestaurant{
-    position:absolute;
-    left: 20%;
-    top: 6vh;    
+small{
+    margin: 0 20%;
+    padding-bottom: 2vh;
 }
+@media screen and (max-width: 1270px){
+    .tableCrud{
+        margin: 3% 20%;
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .tableCrud{
+        margin: 0% 15%;
+        margin-top: 20%;
+    }
+    .btnLogout{
+        left: 55%;
+        top: 12vh;
+        width: 10%;
+        }
+    .logoList{
+        left: 30%;
+    }
+}
+@media screen and (max-width: 768px){
+    .tableCrud{
+        margin: 3% 10%;
+        margin-top:20% ;
+    }
+    .btnLogout{
+    left: 65%;
+    top: 8vh;
+    width: 20%;
+    }
+    .ingredientCont{
+    margin: 20% 15% 0;
+    }
+    .logo{
+    
+    }
+    .logoList{
+    position: absolute;
+    left: 10%;
+    top: 0;
+    }
+    small{
+    color: brown;
+    }
+}
+@media screen and (max-width: 625px){
+    .tableCrud{
+        margin: 4%;
+        margin-top:30% ;
+    }
+
+}
+@media screen and (max-width: 425px){
+    .tableCrud{
+        margin: 4%;
+        margin-top:35% ;
+        width: 100%;
+    }
+    .btnLogout{
+    left: 65%;
+    top: 8vh;
+    width: 20%;
+    }
+    .ingredientCont{
+    margin: 35% 5% 0;
+    }
+    .logo{
+    
+    }
+    .logoList{
+    position: absolute;
+    left: 10%;
+    top: 0;
+    }
+    small{
+    color: brown;
+    }
+}
+

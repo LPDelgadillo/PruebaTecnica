@@ -63,10 +63,10 @@ const CrudIngredients = () => {
 
   return (
     <div className='ContPrincipal'>
-      <img className='logoRestaurant' alt='LogoRestaurant' src={logo} />
+      <img className='logoList' alt='LogoRestaurant' src={logo} />
       <button className='btnLogout' onClick={handleLogout}>logOut</button>
-      <div className='tableIngredients'>
-        <Table striped bordered hover>
+      <div className='tableCrud'>
+        <Table className='center' striped bordered hover>
           <thead>
             <tr>
               <th>Product</th>
@@ -111,10 +111,10 @@ const CrudIngredients = () => {
           </tbody>
         </Table>
         <div className="d-grid gap-2">
-          <Button variant="dark" onClick={() => setShow(true)}>Agregar Nuevo Ingrediente</Button>
+          <Button variant=" centrar" onClick={() => setShow(true)}>Agregar Nuevo Ingrediente</Button>
         </div>
         <div className="d-grid gap-2 mt-2">
-          <Button variant="dark" onClick={() => Navigate('/')}>Volver a Comprar</Button>
+          <Button variant=" centrar" onClick={() => Navigate('/')}>Volver a Comprar</Button>
         </div>
       </div>
       <div>
@@ -262,6 +262,7 @@ const CrudIngredients = () => {
           </Modal.Body>
         </Modal>
       </div>
+      <small>Lizeth Paola Delgadillo Robayo</small>
     </div>
   )
 }

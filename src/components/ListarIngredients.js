@@ -74,12 +74,14 @@ const ListarIngredients = () => {
           <span>Plato</span>
           <h4>Risotto de setas (vegano)</h4>
         </div>
-        <Button variant="link"
-          onClick={() => SeleccionarTodo()}
-        >Seleccionar Todo</Button>
-        <Button variant="link"
-          onClick={() => deseleccionarTodo()}
-        >Deseleccionar Todo</Button>
+        <div className='flex '>
+          <Button className='btnsCheck' variant="link"
+            onClick={() => SeleccionarTodo()}
+          >Seleccionar Todo</Button>
+          <Button className='btnsCheck' variant="link"
+            onClick={() => deseleccionarTodo()}
+          >Deseleccionar Todo</Button>
+        </div>
         <hr />
         {
           ingredient?.map((ing, index) => (
@@ -96,24 +98,25 @@ const ListarIngredients = () => {
                   <span>{ing.quantity}</span>
                 </div>
                 <div>
-                  <h4 className='price'>$ {ing.price}</h4>
+                  <h4>$ {ing.price}</h4>
                 </div>
               </div>
               <hr />
             </div>
           ))
         }
-        <div className="d-grid gap-2">
-          <Button variant="success"
+        <div>
+          <Button variant="centrar"
             onClick={() => pagoProducts()}
           >Pagar $ {total}</Button>
         </div>
         <div className='d-grid gap-2 mt-3'>
-          <Button variant="outline-dark"
+          <Button variant=" centrar"
             onClick={() => { Navigate('/ingredients') }}
           >Editar Ingredientes</Button>
         </div>
       </div>
+      <small>Lizeth Paola Delgadillo Robayo</small>
     </div>
   )
 }
